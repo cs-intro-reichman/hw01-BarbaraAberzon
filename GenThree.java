@@ -10,13 +10,14 @@ public class GenThree {
 		int rand1 = (int)(Math.random()*(max - min) + min) ;
 		int rand2 = (int)(Math.random()*(max - min) + min) ;
 		int rand3 = (int)(Math.random()*(max - min) + min) ;
-		System.out.println(rand1) ;
-		System.out.println(rand2) ;
-		System.out.println(rand3) ;
+		
 		
 		//Checking the minimum number between randoms
 		int min_1 = Math.min( rand1, rand2 ) ;
 		int min_2 = Math.min( min1, rand3 ) ;
+		System.out.println(rand1) ;
+		System.out.println(rand2) ;
+		System.out.println(rand3) ;
 		System.out.println( "The minimal generated number was " + min_2 ) ;
 			}
 }
