@@ -1,4 +1,4 @@
-public class Gen3 {
+public class GenThree {
 	public static void main(String[] args) {
 		// define variable from the user and check range
 		int firstNum = Integer.parseInt(args[0]) ;
