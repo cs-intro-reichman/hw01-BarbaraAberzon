@@ -9,7 +9,7 @@ public class LinearEq {
 		//calculate the equations
 		x = (c-b)/a ;
 		System.out.println( a + " * x + "  + b + " = " + c ) ;
-		System.out.println( "X = " + x) ;
+		System.out.println( "x = " + x) ;
 	}
 }
 		
