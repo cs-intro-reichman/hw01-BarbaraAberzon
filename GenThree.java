@@ -15,8 +15,9 @@ public class GenThree {
 		System.out.println(rand3) ;
 		
 		//Checking the minimum number between randoms
-		int minNumRand = Math.min(rand1,Math.min(rand2,rand3)) ;
-		System.out.println( "The minimal generated number was " + minNumRand ) ;
+		int min_1 = Math.min( rand1, rand2 ) ;
+		int min_2 = Math.min( min1, rand3 ) ;
+		System.out.println( "The minimal generated number was " + min_2 ) ;
 			}
 }
 
