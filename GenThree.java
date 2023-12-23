@@ -7,9 +7,9 @@ public class GenThree {
 		int max = Math.max(firstNum, secondNum) ;
 		
 		// get random number between the max number to the min number
-		int rand1 = (int)(Math.random()*(max - min)) + min ;
-		int rand2 = (int)(Math.random()*(max - min)) + min ;
-		int rand3 = (int)(Math.random()*(max - min)) + min ;
+		int rand1 = (int)(Math.random()*(max - min) + min) ;
+		int rand2 = (int)(Math.random()*(max - min) + min) ;
+		int rand3 = (int)(Math.random()*(max - min) + min) ;
 		System.out.println(rand1) ;
 		System.out.println(rand2) ;
 		System.out.println(rand3) ;
