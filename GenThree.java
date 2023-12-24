@@ -14,7 +14,7 @@ public class GenThree {
 		
 		//Checking the minimum number between randoms
 		int min_1 = Math.min( rand1, rand2 ) ;
-		int min_2 = Math.min( min1, rand3 ) ;
+		int min_2 = Math.min( min_1, rand3 ) ;
 		System.out.println(rand1) ;
 		System.out.println(rand2) ;
 		System.out.println(rand3) ;
